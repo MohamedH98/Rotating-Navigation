@@ -53,6 +53,7 @@ body {
     border: 0;
     font-size: 26px;
     color: #f1faee;
+    cursor: pointer;
 }
 
 
@@ -104,6 +105,11 @@ nav ul li + li {
 nav ul li + li + li {
     margin-left: 30px;
     transform: translateX(-200%);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f1faee;
 }
 .content {
     max-width: 1000px;
